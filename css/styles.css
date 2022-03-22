@@ -1,1 +1,21 @@
-/* developer styles go here */
+h2 {
+  padding: 1rem;
+}
+
+section {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.horizontal-group {
+  display: flex;
+  overflow: scroll;
+}
+
+.horizontal-group > div {
+  background-color: #3f1917;
+  flex: 0 0 330px;
+  height: 187px;
+  margin: 1rem 0.5rem;
+  border-radius: 3px;
+}
